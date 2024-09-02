@@ -1,0 +1,178 @@
+/* 
+   cabeçalho
+*/
+
+header {
+   background: #FFF;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 8px 24px;
+}
+
+header .logo-menu, header .busca {
+   display: flex;
+   justify-content: center;
+}
+
+header .logo-menu img {
+   margin-left: 32px;
+}
+
+header .busca input {
+   width: 348px;
+   height: 40px;
+   border: 1px solid #CCC;
+}
+
+header .busca button {
+   width: 57px;
+   height: 40px;
+}
+
+header .notificacao {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 24px;
+}
+
+header .notificacao img {
+   width: 34px;
+   height: 34px;
+   border-radius: 50%;
+}
+
+/* 
+   principal
+*/
+
+main {
+   background: #F9F9F9;
+   width: 100%;
+   padding-top: 28px;
+
+   display: flex;
+}
+
+/* esquerda */
+
+main .video {
+   margin-left: 75px;
+}
+
+main .video .video-usuario-titulo {
+   padding: 16px 0;
+}
+
+main .video .canal-infos {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 42px;
+}
+
+main .video .canal-infos .canal {
+   display: flex;
+   flex-direction: row;
+}
+
+main .video .canal-infos .canal .canal-detalhes {
+   margin-left: 12px;
+}
+
+main .video .canal-infos .canal .canal-detalhes h3 {
+   font-weight: 700;
+}
+
+main .video .canal-infos .inscrever-canal button {
+   width: 159px;
+   height: 40px;
+   border: transparent;
+   border-radius: 2px;
+   background: #C00;
+
+   color: #FFF;
+   font-size: 14px;
+   text-transform: uppercase;
+}
+
+main .video .canal-infos .gostei {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+main .video .canal-infos .nao-gostei {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+main .video .canal-infos .compartilhar {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+main .video .canal-infos .download {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+main .video .canal-infos .gostei p,
+main .video .canal-infos .nao-gostei p,
+main .video .canal-infos .compartilhar p,
+main .video .canal-infos .download p {
+   margin-left: 8px;
+}
+
+main .video .visualizacoes {
+   width: 391px;
+   height: 16px;
+   padding: 16px 0;
+}
+
+main .video .visualizacoes p {
+   color: #000;
+   font-weight: 700;
+}
+
+main .video .detalhes {
+   padding-top: 16px;
+   width: 510px;
+}
+
+main .video .detalhes p {
+   color: #515151;
+   font-weight: 400;
+}
+
+/* Direita */
+
+main .usuario-lista-video {
+   margin-left: 25px;
+}
+
+main .usuario-lista-video .thumbnail {
+   display: flex;
+   margin-bottom: 16px;
+}
+
+main .usuario-lista-video .thumbnail .thumbnail-infos {
+   width: 196px;
+   max-height: 90px;
+   margin-left: 16px;
+}
+
+main .usuario-lista-video .thumbnail .thumbnail-infos .thumbnail-canal,
+main .usuario-lista-video .thumbnail .thumbnail-infos .thumbnail-visualizacoes {
+   padding-top: 7px;
+}
+
+main .usuario-lista-video .thumbnail .thumbnail-infos .thumbnail-canal p,
+main .usuario-lista-video .thumbnail .thumbnail-infos .thumbnail-visualizacoes p {
+   font-size: 12px;
+}
